@@ -1,0 +1,6 @@
+C:\Users\Vero\source\repos\Vernam\Vernam\bin\Debug\Vernam.exe.config
+C:\Users\Vero\source\repos\Vernam\Vernam\bin\Debug\Vernam.exe
+C:\Users\Vero\source\repos\Vernam\Vernam\bin\Debug\Vernam.pdb
+C:\Users\Vero\source\repos\Vernam\Vernam\obj\Debug\Vernam.csproj.CoreCompileInputs.cache
+C:\Users\Vero\source\repos\Vernam\Vernam\obj\Debug\Vernam.exe
+C:\Users\Vero\source\repos\Vernam\Vernam\obj\Debug\Vernam.pdb
