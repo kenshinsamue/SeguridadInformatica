@@ -1,0 +1,7 @@
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\obj\Debug\Vigenere.csprojAssemblyReference.cache
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\obj\Debug\Vigenere.csproj.CoreCompileInputs.cache
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\bin\Debug\Vigenere.exe.config
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\bin\Debug\Vigenere.exe
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\bin\Debug\Vigenere.pdb
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\obj\Debug\Vigenere.exe
+C:\Users\vicktoru-kun\source\repos\Vigenere\Vigenere\obj\Debug\Vigenere.pdb
