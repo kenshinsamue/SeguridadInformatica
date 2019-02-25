@@ -121,6 +121,11 @@ namespace Vigenere
             Console.WriteLine("introduzca el mensaje a encriptar: ");           // pedimos el mensaje a encriptar y lo guardamos
             mensaje=Console.ReadLine();
             mensaje=mensaje.ToUpper();
+            while (mensaje.Contains(" "))
+            {
+                mensaje = mensaje.Replace(" ", "");
+            }
+
             Console.WriteLine("Introduzca la clave con la que encriptar: ");        // pedimos la clave con la que encriptar y la guardamos
             clave = Console.ReadLine();
             clave=clave.ToUpper();
