@@ -21,7 +21,10 @@ namespace Vigenere
             public void show_me_da_cyf() {
 
            
-                Console.WriteLine(cifrado);
+                Console.WriteLine("El mensaje cifrado es : "+cifrado);
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("");
             }
             public void cyf() {
 
@@ -33,10 +36,17 @@ namespace Vigenere
                 {
                     a = (int)mensaje[i];
                     b = (int)clave[index];
-                    Console.WriteLine(mensaje[i] + ":" + a);
-                    Console.WriteLine(clave[index] + ":" + b);
-                    result = (a + b)%25+65;
-                    Console.WriteLine((char)result + ":"+result+", resultado divicion:"+);
+
+                    Console.Write(mensaje[i] + ":" + a + ", ");
+                    Console.Write(clave[index] + ":" + b+" -> ");
+
+                    a -= 65;
+                    b -= 65;
+                    
+                    result = (a + b) % 25;
+                    result += 65;
+                    
+                    Console.WriteLine((char)result + ":"+result);
                     cifrado = cifrado + (char)result;
 
 
@@ -50,10 +60,18 @@ namespace Vigenere
 
             }
 
+            public void show_init_decript() {
+
+                Console.WriteLine("Descifrado:");
+                Console.WriteLine("mensaje cifrado: " + cifrado);
+                Console.WriteLine("");
+                Console.WriteLine("clave: "+clave);
+            }
+
             public int get_div() {
+                int result = 0;
 
-
-
+                return result;
             }
 
             public void descyf() {
@@ -67,12 +85,29 @@ namespace Vigenere
                     a = (int)cifrado[i];
                     b = (int)clave[index];
 
+                    a -= 65;
+                    b -= 65;
 
+                    result = a - b;
+                    if (result < 0)
+                    {
+                        result = 90 + result;
 
+                    }
+                    else {
 
+                        result += 65;
+                    }
+                    descifrado += (char)result;
+                    Console.WriteLine(result);
+                    index++;
+                    if (index >= clave.Length)
+                    {
+                        index = 0;
+                    }
                 }
-
-
+                
+                Console.WriteLine(descifrado);
             }
         }
 
@@ -92,8 +127,12 @@ namespace Vigenere
             Vingenere cifrar = new Vingenere(mensaje, clave);                           // creamos el objeto que nos permite cifrar y descifrar
             cifrar.cyf();
             cifrar.show_me_da_cyf();
-            Console.ReadLine();    
 
+
+            cifrar.show_init_decript();
+            cifrar.descyf();
+            Console.ReadLine();
+            
 
         }
     }
