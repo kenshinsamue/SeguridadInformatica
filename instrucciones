@@ -1,0 +1,3 @@
+1. crear fichero
+2. dentro del fichero escribir el comando "dotnet new console"
+3. ejecutar el comando " dotnet restore"

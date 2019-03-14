@@ -1,0 +1,11 @@
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/bin/Debug/netcoreapp2.2/A51.deps.json
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/bin/Debug/netcoreapp2.2/A51.runtimeconfig.json
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/bin/Debug/netcoreapp2.2/A51.runtimeconfig.dev.json
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/bin/Debug/netcoreapp2.2/A51.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/bin/Debug/netcoreapp2.2/A51.pdb
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.csprojAssemblyReference.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.AssemblyInfoInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.AssemblyInfo.cs
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/A51/obj/Debug/netcoreapp2.2/A51.pdb
