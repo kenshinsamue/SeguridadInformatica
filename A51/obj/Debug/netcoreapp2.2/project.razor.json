@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/k1k4ss0/Desktop/Seguridad informatica/A51/A51.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
