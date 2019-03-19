@@ -21,13 +21,13 @@ namespace A51
 
                 int sz=lfsr.Length;                     // obtenemos su size
                 if(sz==19){             // en  caso de que sea el LFSR con 19 bits
-                   
-                    polinomios= new int [] {18,17,16,13};       // representa el polinomio del lfsr
+                    polinomios= new int [] {18,14,13,9};
+                    //polinomios= new int [] {18,17,16,13};       // representa el polinomio del lfsr
                     entrada_=8;                                 // indica el indice de la posicion del array de bits que determina la entrada
                 }
                 if(sz==22){                // en caso de que sea el LFSR con 22 bits
-                    
-                    polinomios= new int [] {21,20};
+                    polinomios=new int []{13,3};
+                    //polinomios= new int [] {21,20};
                     entrada_=10;
                 }
                 if(sz==23){                 // en caso de que sea el LFSR con 23 bits
@@ -82,6 +82,10 @@ namespace A51
                 }
 
             }
+            public  bool get_last(){
+
+                return lfsr[(lfsr.Length)-1];
+            }
             
                
         };
@@ -95,14 +99,14 @@ namespace A51
             LFSR[] mi_lfsr;                         // creamos un array de LFSR's 
             BitArray semilla;                       // Bitarray con la semilla
 
-
+            BitArray descifrado;
 
             public A5(BitArray sem,BitArray mens){          // constructor
                
                 mensaje=mens;                               // guardamos el mensaje
                 S = new BitArray (mensaje.Length);          // definimos el vector cifrante , segun la longitud del mensaje
                 cifrado = new BitArray(mensaje.Length);     // lo mismo hacemos con el cifrado
-
+                descifrado= new BitArray(mensaje.Length);
 
 
                // S = new BitArray ();
@@ -187,6 +191,7 @@ namespace A51
                             result_b=mi_lfsr[1].push_valor(result_b);
 
                             valor=LFSR.make_xor(result_a,result_b);
+                            valor=LFSR.make_xor(valor,mi_lfsr[2].get_last());
                             S[index_S]=valor;
                             
                         }
@@ -199,7 +204,7 @@ namespace A51
                             result_c=mi_lfsr[2].push_valor(valor);
 
                             valor = LFSR.make_xor(result_a,result_c);
-
+                            valor= LFSR.make_xor(valor,mi_lfsr[1].get_last());
                             S[index_S]=valor;
                             
 
@@ -212,7 +217,7 @@ namespace A51
                             result_c=mi_lfsr[2].push_valor(valor);
 
                             valor=LFSR.make_xor(result_a,result_b);
-                        
+                            valor=LFSR.make_xor(valor,mi_lfsr[0].get_last());
                             S[index_S]=valor;
                             
                         }   
@@ -250,6 +255,25 @@ namespace A51
                     cifrado[i]=LFSR.make_xor(S[i],mensaje[i]);
                 }
             }
+
+
+            public void descifrar(){
+
+                for(int i=0; i<cifrado.Length;i++){
+                    descifrado[i]=LFSR.make_xor(S[i],cifrado[i]);
+                }
+
+            }
+
+            public BitArray get_decrypt(){
+
+                return descifrado;
+            }
+            public BitArray get_S(){
+                return S;
+            }
+
+
         };
 
 
@@ -335,7 +359,19 @@ namespace A51
 
             BitArray cifrado = algoritmo.get_cript();                       // obtenemos el mensaje cifrado y lo mostramos
             show_chipher(cifrado);
+            Console.WriteLine("");
 
+            algoritmo.descifrar();
+            Console.WriteLine("La Cadena a descifrar es : ");
+            show_chipher(cifrado);
+            Console.WriteLine("");
+
+            show_chipher(algoritmo.get_S());
+            Console.WriteLine("");
+
+            BitArray descifrado= algoritmo.get_decrypt();
+            show_chipher(descifrado);
+            Console.WriteLine("");
         }
     }
 }
