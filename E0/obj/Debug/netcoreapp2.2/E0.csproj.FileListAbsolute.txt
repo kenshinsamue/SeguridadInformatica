@@ -1,0 +1,11 @@
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/bin/Debug/netcoreapp2.2/E0.deps.json
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/bin/Debug/netcoreapp2.2/E0.runtimeconfig.json
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/bin/Debug/netcoreapp2.2/E0.runtimeconfig.dev.json
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/bin/Debug/netcoreapp2.2/E0.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/bin/Debug/netcoreapp2.2/E0.pdb
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.csprojAssemblyReference.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.AssemblyInfoInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.AssemblyInfo.cs
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/E0/obj/Debug/netcoreapp2.2/E0.pdb
