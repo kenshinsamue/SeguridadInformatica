@@ -16,10 +16,6 @@ namespace E0
                 lfsr= new BitArray(a);  // lo creamos, e inicializamos toda la estructura segun su size
                 definir();              
 
-            }   
-            public void set_polinomio(int[] aux){
-                polinomios=aux;
-
             }
 
             public void definir(){
@@ -100,11 +96,7 @@ namespace E0
 
                 return lfsr[(lfsr.Length)-1];
             }
-            public void set_bitss(string a){
-
-
-                lfsr=convert_to_bool(lfsr,a);
-            }
+            
                
         };
 /******************** /LFSR *********************************/
@@ -112,24 +104,18 @@ namespace E0
 /******************* E0 ************************************/
         public class E0{
         BitArray message;
-        BitArray cifrarrr;
         BitArray seed;
         BitArray S;
         LFSR[] lfsr;
         public E0(BitArray msg,BitArray sd){
             message=msg;
             seed=sd;
-            
             S=new BitArray (msg.Length);
-            lfsr = new LFSR[5];
+            lfsr = new LFSR[4];
             lfsr[0]=new LFSR (25);
             lfsr[1]=new LFSR (31);
             lfsr[2]=new LFSR (33);
             lfsr[3]=new LFSR (39);
-            lfsr[4]=new LFSR (39);
-            int[] polinomios= new int []{24,14,9,4};
-            lfsr[4].set_polinomio(polinomios);
-            lfsr[4].set_bitss("111111111111111111111111111111111111111");
             set_lfsr();
         }
 
@@ -188,7 +174,7 @@ namespace E0
 
             public void crear_cadena_cifrante(){        
             
-                bool result_a=false,result_b=false,result_c=false,result_d=false,result_e=false;      // bits resultantes de operaciones
+                bool result_a=false,result_b=false,result_c=false,result_d=false;      // bits resultantes de operaciones
                 bool[] inic=new bool [2]{false,true};                                   // bits de inicio de R1
                 int index_S=0,contador=0,r1,resultado=0;              //indice de la cadena cifrante,resultado de suma(decimal) de LFSR,r1 en decimal,resultado de la suma contador+r1                                     
                 int[] sum= new int [1];
@@ -207,12 +193,12 @@ namespace E0
                         result_b=lfsr[1].get_valor();        
                         result_c=lfsr[2].get_valor();
                         result_d=lfsr[3].get_valor();
-                        result_e=lfsr[4].get_valor();
+
                         result_a=lfsr[0].push_valor(result_a);   
                         result_b=lfsr[1].push_valor(result_b);
                         result_c=lfsr[2].push_valor(result_c);
                         result_d=lfsr[3].push_valor(result_d);
-                        result_e=lfsr[4].push_valor(result_e);
+                        
                         Console.WriteLine("Bit numero"+(index_S+1));
                         Console.WriteLine("R1:");
                         show_chipher(R1);
@@ -220,7 +206,7 @@ namespace E0
                         end=LFSR.make_xor(end,result_c);
                         end=LFSR.make_xor(end,result_d);
                         end=LFSR.make_xor(end,R1[1]);
-                        end=LFSR.make_xor(end,result_e);
+                        
                         
                         //Console.WriteLine(result_a);
                         //Console.WriteLine(result_b);
@@ -281,24 +267,14 @@ namespace E0
 
              public BitArray cifrar(){
 
-                 cifrarrr = new BitArray(message.Length);
+                BitArray cifrado = new BitArray(message.Length);
 
-                for(int i=0;i<cifrarrr.Length;i++){
+                for(int i=0;i<cifrado.Length;i++){
 
-                    cifrarrr[i]=LFSR.make_xor(message[i],S[i]);
+                    cifrado[i]=LFSR.make_xor(message[i],S[i]);
                 }
-                
-                return cifrarrr;
-            }
-            public BitArray descifrar(){
 
-                BitArray descifrar= new BitArray(message.Length);
-                for(int i=0;i<descifrar.Length;i++){
-
-                    descifrar[i]=LFSR.make_xor(cifrarrr[i],S[i]);
-                }
-                     
-                return descifrar;
+                return cifrado;
             }
             static public BitArray int_to_bool(int a){
                 
@@ -453,15 +429,6 @@ namespace E0
             cifrado=algoritmo.cifrar();
             Console.WriteLine("El mensaje cifrado es : ");
             show_chipher(cifrado);
-
-            Console.WriteLine("------------------------------------------");
-            BitArray descifrado=algoritmo.descifrar();
-            Console.WriteLine("El mensaje cifrado es : ");
-            show_chipher(cifrado);
-            Console.WriteLine("El vector cifrante (S) es : ");
-            show_chipher(S);
-            Console.WriteLine("El mensaje descifrado es : ");
-            show_chipher(descifrado);
         }
     }
 }
