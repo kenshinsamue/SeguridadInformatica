@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/aes3g.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/bin/Debug/netcoreapp2.2/aes3g.deps.json
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/bin/Debug/netcoreapp2.2/aes3g.runtimeconfig.json
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/bin/Debug/netcoreapp2.2/aes3g.runtimeconfig.dev.json
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/bin/Debug/netcoreapp2.2/aes3g.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/bin/Debug/netcoreapp2.2/aes3g.pdb
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.csprojAssemblyReference.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.AssemblyInfoInputs.cache
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.AssemblyInfo.cs
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.dll
+/home/k1k4ss0/Desktop/Seguridad informatica/aes3g/obj/Debug/netcoreapp2.2/aes3g.pdb
