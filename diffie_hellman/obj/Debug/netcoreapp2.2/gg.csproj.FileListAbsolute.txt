@@ -1,0 +1,11 @@
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.csprojAssemblyReference.cache
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.AssemblyInfoInputs.cache
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.AssemblyInfo.cs
+/home/k1k4ss0/Downloads/gg/bin/Debug/netcoreapp2.2/gg.deps.json
+/home/k1k4ss0/Downloads/gg/bin/Debug/netcoreapp2.2/gg.runtimeconfig.json
+/home/k1k4ss0/Downloads/gg/bin/Debug/netcoreapp2.2/gg.runtimeconfig.dev.json
+/home/k1k4ss0/Downloads/gg/bin/Debug/netcoreapp2.2/gg.dll
+/home/k1k4ss0/Downloads/gg/bin/Debug/netcoreapp2.2/gg.pdb
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.dll
+/home/k1k4ss0/Downloads/gg/obj/Debug/netcoreapp2.2/gg.pdb
