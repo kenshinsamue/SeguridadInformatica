@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/k1k4ss0/Downloads/gg/gg.csproj": {}
+    "/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/diffie_hellman.csproj": {}
   },
   "projects": {
-    "/home/k1k4ss0/Downloads/gg/gg.csproj": {
+    "/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/diffie_hellman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/k1k4ss0/Downloads/gg/gg.csproj",
-        "projectName": "gg",
-        "projectPath": "/home/k1k4ss0/Downloads/gg/gg.csproj",
+        "projectUniqueName": "/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/diffie_hellman.csproj",
+        "projectName": "diffie_hellman",
+        "projectPath": "/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/diffie_hellman.csproj",
         "packagesPath": "/home/k1k4ss0/.nuget/packages/",
-        "outputPath": "/home/k1k4ss0/Downloads/gg/obj/",
+        "outputPath": "/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

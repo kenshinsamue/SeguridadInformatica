@@ -1,0 +1,11 @@
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/bin/Debug/netcoreapp2.2/diffie_hellman.deps.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/bin/Debug/netcoreapp2.2/diffie_hellman.runtimeconfig.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/bin/Debug/netcoreapp2.2/diffie_hellman.runtimeconfig.dev.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/bin/Debug/netcoreapp2.2/diffie_hellman.dll
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/bin/Debug/netcoreapp2.2/diffie_hellman.pdb
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.csprojAssemblyReference.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.AssemblyInfoInputs.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.AssemblyInfo.cs
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.dll
+/home/k1k4ss0/Desktop/Seguridad_informatica/diffie_hellman/obj/Debug/netcoreapp2.2/diffie_hellman.pdb

@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "gg/1.0.0": {
+      "diffie_hellman/1.0.0": {
         "runtime": {
-          "gg.dll": {}
+          "diffie_hellman.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "gg/1.0.0": {
+    "diffie_hellman/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

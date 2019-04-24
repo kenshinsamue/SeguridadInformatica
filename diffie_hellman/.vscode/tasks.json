@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/gg.csproj"
+                "${workspaceFolder}/diffie_hellman.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/gg.csproj"
+                "${workspaceFolder}/diffie_hellman.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/gg.csproj"
+                "${workspaceFolder}/diffie_hellman.csproj"
             ],
             "problemMatcher": "$tsc"
         }
