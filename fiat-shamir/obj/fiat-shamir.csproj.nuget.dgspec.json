@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/fiat-shamir.csproj": {}
+  },
+  "projects": {
+    "/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/fiat-shamir.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/fiat-shamir.csproj",
+        "projectName": "fiat-shamir",
+        "projectPath": "/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/fiat-shamir.csproj",
+        "packagesPath": "/home/k1k4ss0/.nuget/packages/",
+        "outputPath": "/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/k1k4ss0/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

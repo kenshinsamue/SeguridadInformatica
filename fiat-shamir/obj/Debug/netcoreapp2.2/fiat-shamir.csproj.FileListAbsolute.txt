@@ -1,0 +1,11 @@
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/bin/Debug/netcoreapp2.2/fiat-shamir.deps.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/bin/Debug/netcoreapp2.2/fiat-shamir.runtimeconfig.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/bin/Debug/netcoreapp2.2/fiat-shamir.runtimeconfig.dev.json
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/bin/Debug/netcoreapp2.2/fiat-shamir.dll
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/bin/Debug/netcoreapp2.2/fiat-shamir.pdb
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.csprojAssemblyReference.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.csproj.CoreCompileInputs.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.AssemblyInfoInputs.cache
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.AssemblyInfo.cs
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.dll
+/home/k1k4ss0/Desktop/Seguridad_informatica/fiat-shamir/obj/Debug/netcoreapp2.2/fiat-shamir.pdb
